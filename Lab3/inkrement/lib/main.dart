@@ -76,7 +76,16 @@ class _MyHomePageState extends State<MyHomePage> {
             style: Theme.of(context).textTheme.headlineMedium,),
             
               ]
+            ),
+            Row( 
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headlineMedium,
             )
+            ]
+            ),
           ]
         ),
       ),
