@@ -89,8 +89,8 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                IconButton(onPressed: _Mines, icon: Icon(Icons.indeterminate_check_box_rounded)),
-              IconButton(onPressed: _Plus, icon: Icon(Icons.add_box_rounded))
+                IconButton(onPressed: _Mines, icon: Icon(Icons.indeterminate_check_box_rounded, size: 40, color: Colors.red)),
+              IconButton(onPressed: _Plus, icon: Icon(Icons.add_box_rounded,size: 40, color: Colors.lightGreen))
               
             ],
             ),
