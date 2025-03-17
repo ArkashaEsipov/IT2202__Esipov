@@ -67,6 +67,17 @@ class _MyHomePageState extends State<MyHomePage> {
         
         child: Column(
          
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+            Text('counter:',
+            style: Theme.of(context).textTheme.headlineMedium,),
+            
+              ]
+            )
+          ]
         ),
       ),
       
