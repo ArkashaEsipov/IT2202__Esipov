@@ -91,9 +91,19 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 IconButton(onPressed: _Mines, icon: Icon(Icons.indeterminate_check_box_rounded)),
               IconButton(onPressed: _Plus, icon: Icon(Icons.add_box_rounded))
+              
             ],
             ),
-
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                TextButton(onPressed: Sbros, child: Text(
+                  "Сброс",
+                  style: Theme.of(context).textTheme.headlineMedium,
+                )
+                )
+              ]
+            )
           ]
         ),
       ),
