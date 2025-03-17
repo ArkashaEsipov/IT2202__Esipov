@@ -40,7 +40,18 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter--;
     });
   }
-
+  void _Plus()
+  {
+    setState(() {
+      _counter++;
+    });
+  }
+  void Sbros()
+  {
+    setState(() {
+      _counter = 0;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
