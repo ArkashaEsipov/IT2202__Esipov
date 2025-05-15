@@ -1,0 +1,2 @@
+D:/code/IT2202_Esipov/IT2202__Esipov/lab4/obshejit/android/app/.cxx/Debug/1i5h1711/x86_64/CMakeFiles/edit_cache.dir
+D:/code/IT2202_Esipov/IT2202__Esipov/lab4/obshejit/android/app/.cxx/Debug/1i5h1711/x86_64/CMakeFiles/rebuild_cache.dir
